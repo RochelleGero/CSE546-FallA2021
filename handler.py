@@ -13,4 +13,4 @@ def open_encoding(filename):
 	return data
 
 def face_recognition_handler(event, context):	
-	print("Hello aws")
+	print("Hello AWS this projct03")

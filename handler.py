@@ -2,8 +2,8 @@ from boto3 import client as boto3_client
 import face_recognition
 import pickle
 
-input_bucket = "546proj2"
-output_bucket = "546proj2output"
+input_bucket = "project03s3"
+output_bucket = "project03s3output"
 
 # Function to read the 'encoding' file
 def open_encoding(filename):
